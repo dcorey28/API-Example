@@ -1,0 +1,75 @@
+body {
+    /*background-image: url(scratched.jpg);*/
+    background-color: #555555;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+    color: white;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+.button {
+    border: none;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.input {
+    border-radius: 4px;
+    padding: 5px;
+    margin: 5px;
+}
+
+#header {
+    text-align: center;
+}
+
+
+
+#weather-container, #stack-container{
+    width: 40%;
+    float: left;
+    padding: 0 5%;
+}
+
+#stack-container ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+#stack-container li {
+    border: 1px solid black;
+    margin: 5px 0;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: #333333;
+    width: 75%;
+}
+
+#stack-container li:hover {
+    background-color: #4CAF50;
+}
+
+#stack-container a {
+    text-decoration: none;
+    color: white;
+}
+
+#weather-container img {
+    float: right;
+}
+
+#weather-container ul {
+    padding-left: 0;
+    list-style: none;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: #333333;
+    padding: 5px;
+    width: 75%;
+}

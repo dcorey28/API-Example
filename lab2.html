@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Weather</title>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<link href="lab2.css" rel="stylesheet" type"text/css">
+</head>
+<body>
+    <div id="header">
+        <h1>David Corey</h1>
+    </div>
+    <div id="weather-container">
+        <h2>Check the Weather</h2>
+        <form>
+            Enter A Utah City: <input class="input" type="text" id="cityField" value=""><br>
+            Suggestion: <span id="txtHint">None</span>
+            <input class="button" id="weatherButton" type="submit" value="Submit">
+        </form>
+        <p>City</p>
+        <textarea class="input" id="displayCity">No City</textarea>
+        <p>Current Weather</p>
+        <div id="weather"></div>
+    </div>
+    <div id=stack-container>
+        <h2>StackExchange</h2>
+        <form>
+            Search StackExchange: <input class="input" type="text" id="searchStack" value="">
+            <input class="button" id="searchButton" type="submit" value="Search">
+        </form>
+        <div id="searchResults"></div>
+    </div>
+
+    <script src="lab2.js"></script>
+
+    </body>
+</html>
